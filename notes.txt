@@ -20,3 +20,11 @@
     a) git branch <branch_name>
 - $ git checkout    //Change to another branch
     a) git checkout <already_declared_branch_name>
+    b) what is useful about being in another branch is that
+        any commits done in this branch only affect that specific
+        branch. Say I make a test branch, and I do a bunch of 
+        modifications to my code. If I commit, the changes will
+        only be visible on my branch. It won't be visible on the
+        master branch for example. This way, I can figure out the
+        problem, keep backups of the versions I make, and all without
+        modifying the main master branch.
