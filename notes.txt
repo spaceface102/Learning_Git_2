@@ -28,3 +28,9 @@
         master branch for example. This way, I can figure out the
         problem, keep backups of the versions I make, and all without
         modifying the main master branch.
+- $ git merge       //Merge current branch with another branch
+    a) if you are in the master brach and want to merge with Say
+        the "test" branch, all you have to do is 
+        $ git merge test
+            i) this might open an editor asking you explain
+                why you are merging the branches
