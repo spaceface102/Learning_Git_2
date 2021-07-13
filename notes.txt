@@ -1,0 +1,18 @@
+-- Concepts of Git
+- keeps track of code history
+- takes snapshots of your files
+- you decide when to make a snapshot by making a commit
+- can visit any snapshot any time
+- can stage files before committing (git add <filename>)
+
+-- Basic Commands
+- $ git init    //Initialize local git repo
+    a) creates a .git folder
+- $ git add     //Add File(s) to Index
+- $ git rm      //With a filename arg, removes file from staging area
+    a) git rm -f to force removal
+- $ git status  //Check status of working tree
+- $ git commit  //Commit changes in index (make a snapshot)
+- $ git push    //Push to remote repo such as github
+- $ git pull    //Pull the latest changes from a remote repo
+- $ git clone   //Copy a whole new repo into current folder
