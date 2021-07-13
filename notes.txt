@@ -16,3 +16,5 @@
 - $ git push    //Push to remote repo such as github
 - $ git pull    //Pull the latest changes from a remote repo
 - $ git clone   //Copy a whole new repo into current folder
+
+- modify this hoe.
